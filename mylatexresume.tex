@@ -1,17 +1,60 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 \pagestyle{empty}
 \usepackage{amsfonts, amssymb, amsmath}
 \usepackage{float,enumerate,hyperref}
-\usepackage{tikz,pgfplots,graphicx}
+\usepackage{tikz,pgfplots,graphicx,xcolor,colortbl,color}
+\usepackage{libertine}
 \usepackage{xcolor,colortbl}
-\usepackage{enumitem}
+\usepackage{enumitem,multirow}
+\usepackage{fontawesome}
 %\usepackage{fullpage}
 \usepackage[top=0.75in,left=0.5in,right=0.5in,bottom=0.75in]{geometry}
 \parindent 0px
 
-
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%% PAGE 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+      \Large\textbf{Ankesh K.}\\
+      \large\textit{DevOps Consultant}
+\end{flushleft}
+\vspace{-3mm}
+\faEnvelope \href{mailto:iankesh@outlook.com}{iankesh@outlook.com}  {}  {}  {}  \faPhone +91 819 743 4654  {}  {}  {}  \faHome Bengaluru, Karnataka – 37 \\
+\footnotesize \faGithub \url{github.com/iankesh} {}  {}  {} \faLinkedin \url{linkedin.com/in/iankesh} {}  {}  {} \faEdit \url{blogspot.com/iankesh} \\
+%\faStackExchange, and \faStackOverflow
+\vspace{-2mm} \\
+A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC), Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps.  \\
 
+%%%%%%%%%%%%%%%%%%%%%%%% PAGE 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
+\noindent\begin{tabular}{p{5.85in}p{1.1in}}
+\LARGE\textbf{Ankesh K.} &  \multirow{4}{*}{\includegraphics[scale=0.24]{ankesh_round_photo}} \\
+\large\textit{DevOps Consultant} & \\
+\small \faEnvelope \href{mailto:iankesh@outlook.com}{iankesh@outlook.com}  {}  {}  {}  \faPhone +91 819 743 4654  {}  {}  {}  \faHome Bengaluru, Karnataka – 37  & \\
+\scriptsize \faGithub \url{github.com/iankesh} {}  {} \faLinkedin \url{linkedin.com/in/iankesh} {}  {} \faEdit \url{blogspot.com/iankesh} & \\
+\vspace{-1mm} \\
+A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC), Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps.  & \\
+\end{tabular}
+
+\section*{Education}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+\textbf{AMC Engineering College} & Bengaluru, KA  \\
+Bachelor of Engineering (B.E.) - VTU & 2011 - 2015
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%% PAGE 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
+\noindent  \begin{flushright}\begin{Large}\textbf{Ankesh K.} \end{Large}\end{flushright}
+\vspace{-2mm}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l c r}
+GitHub: [\url{github.com/iankesh}] &  \multirow{4}{*}{\includegraphics[scale=0.13]{ankesh_round_photo}} & DevOps Consultant \\
+Blogs: [\url{blogspot.com/iankesh}] & & Bengaluru, Karnataka – 37 \\
+LinkedIn: [\url{linkedin.com/in/iankesh}] & & \href{mailto:iankesh@outlook.com}{iankesh@outlook.com} \\
+Website: [\url{iankesh.wixsite.com/profile}] & & +91 819 743 4654\\
+\hline
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%% PAGE 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
 \noindent  \begin{flushright}\begin{Large}\textbf{Ankesh K.} \end{Large}\end{flushright}
 \vspace{-2mm}
 \noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
@@ -263,8 +306,8 @@ Team Size & 2 [100\%]\\
 \item Music
 \end{itemize}
 \begin{center}%
-\rule{7in}{0.3mm}
-\scriptsize This resume is created in LaTex using \textit{Docs as Code} concept and the code can be found here: \url{github.com/iankesh/mylatexresume.git}
+\rule{7.3in}{0.3mm}
+\scriptsize This resume is created in LaTex using \textit{Docs as Code} concept and the code can be found here: \footnotesize \url{https://github.com/iankesh/mylatexresume}
 \end{center}
 
 
