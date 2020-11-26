@@ -2,78 +2,85 @@
 \pagestyle{empty}
 \usepackage{amsfonts, amssymb, amsmath}
 \usepackage{float,enumerate,hyperref}
-\usepackage{tikz,pgfplots,graphicx,xcolor,colortbl,color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz,pgfplots,graphicx,colortbl,color}
 \usepackage{libertine}
-\usepackage{xcolor,colortbl}
 \usepackage{enumitem,multirow}
 \usepackage{fontawesome}
+\usepackage{qrcode}
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 %\usepackage{fullpage}
 \usepackage[top=0.75in,left=0.75in,right=0.75in,bottom=0.75in]{geometry}
 \parindent 0px
+\pgfplotsset{compat=1.17}
 
 \definecolor{LightCyan}{rgb}{0.88,1,1}
 \definecolor{Gray}{gray}{0.85}
+
+%\pagecolor{blue}
+%\color{white}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%% PAGE 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\footnotesize
 \noindent\begin{tabular}{p{5.2in}p{1.1in}}
-\LARGE\textbf{Ankesh K.} &  \multirow{4}{*}{\includegraphics[scale=0.34]{Ankesh_VCard_noborder_black.jpg}} \\
+\LARGE\color{Maroon}\textbf{Ankesh K.} & \\
 \vspace{-2mm}
-\large\textit{DevOps Consultant} & \\
+\large\textit{\color{NavyBlue}\textbf{DevOps Consultant}} &  \multirow{4}{*}{\includegraphics[scale=0.34]{Ankesh_VCard_noborder_radial.jpg}}\\
 \vspace{-2mm}
-\small \faEnvelope\hspace{0.1pt} \href{mailto:iankesh@outlook.com}{iankesh@outlook.com} \hspace{0.1pt}  \faPhone\hspace{0.1pt} +91 819 743 4654 \hspace{0.1pt} \faHome\hspace{0.1pt} Bengaluru, Karnataka – 37  & \\
-\scriptsize \faLinkedin\hspace{0.1pt} \scalebox{.955}[1.0]{\url{linkedin.com/in/iankesh}} \hspace{0.3pt} \faGithub\hspace{0.1pt} \scalebox{.955}[1.0]{\url{github.com/iankesh}} \hspace{0.3pt} \faEdit\hspace{0.1pt} \scalebox{.955}[1.0]{\url{blogspot.com/iankesh}} & \\
+\small \textcolor{NavyBlue}{\faEnvelope}\hspace{0.1pt} \href{mailto:iankesh@outlook.com}{iankesh@outlook.com} \hspace{0.1pt}  \textcolor{NavyBlue}{\faPhone}\hspace{0.1pt} \href{tel: +918197434654}{+91(819)743-4654} \hspace{0.1pt} \textcolor{NavyBlue}{\faHome}\hspace{0.1pt} \href{https://goo.gl/maps/y6aiDKTPgfarfSqU8}{Bengaluru, Karnataka – 37}  &  \\
+\small \textcolor{NavyBlue}{\faLinkedin}\hspace{0.1pt} {\href{https://www.linkedin.com/in/iankesh/}{linkedin.com/in/iankesh}} \hspace{0.3pt} \textcolor{NavyBlue}{\faGithubAlt}\hspace{0.1pt} {\href{https://github.com/iankesh}{github.com/iankesh}} \hspace{0.3pt} \textcolor{NavyBlue}{\faPencil}\hspace{0.1pt} {\href{https://iankesh.blogspot.com}{iankesh.blogspot.com}} & \\
 \vspace{-1mm}
-\textit{\scalebox{.8}[0.8]{\faQuoteLeft}\hspace{0.1pt} A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC),  Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps.  \hspace{0.1pt}\scalebox{.8}[0.8]{\faQuoteRight}} & \\
+\textit{\scalebox{.8}[0.8]{\textcolor{NavyBlue}{\faQuoteLeft}}\hspace{0.1pt} A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC),  Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps.  \hspace{0.1pt}\scalebox{.8}[0.8]{\textcolor{NavyBlue}{\faQuoteRight}}} & \\
 \end{tabular}
 \vspace{1mm}
 
-\rule{6.8in}{0.5mm}
+\textcolor{NavyBlue}{\rule{6.8in}{0.5mm}}
 
 \vspace{-5mm}
-\section*{Education}
+\section*{\color{NavyBlue}Education}
 \vspace{-1.5mm}
 \noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
-\scalebox{.9}[0.9]{\faInstitution}\hspace{0.1pt} \textbf{AMC Engineering College} & Bengaluru, KA \scriptsize\faMapMarker  \\
+\scalebox{.9}[0.9]{\color{NavyBlue}\faInstitution}\hspace{0.1pt} \textbf{AMC Engineering College} & \href{https://goo.gl/maps/8irGWeowdYCzYBQBA}{Bengaluru, KA \scriptsize\faMapMarker}  \\
 Bachelor of Engineering (B.E.) - VTU & 2011 - 2015 \scriptsize\faCalendar
 \end{tabular*}
 
-\section*{Work Experience}
+\section*{\color{NavyBlue}Work Experience}
 \vspace{-1.5mm}
 \noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
 \hline
-\scalebox{.9}[0.9]{\faBuilding}\hspace{0.1pt} \textbf{HACH (A Danaher Company)} & Bengaluru, KA \scriptsize\faMapMarker  \\
+\scalebox{.9}[0.9]{\color{NavyBlue}\faBuilding}\hspace{0.1pt} \textbf{\href{https://www.hach.com}{HACH} (\href{https://www.danaher.com}{A Danaher Company})} & \href{https://goo.gl/maps/nmg18mWf39BXYR2j9}{Bengaluru, KA \scriptsize\faMapMarker}  \\
 \tabitem Software Consultant - DevOps & Apr 2020 - Present \scriptsize\faCalendar \\
 \tabitem Sr.  Software Engineer - DevOps & Apr 2019 - Mar 2020 \scriptsize\faCalendar \\
 \hline
-\scalebox{.9}[0.9]{\faBuilding}\hspace{0.1pt} \textbf{Mindtree Ltd.} & Chennai,  TN \scriptsize\faMapMarker  \\
+\scalebox{.9}[0.9]{\color{NavyBlue}\faBuilding}\hspace{0.1pt} \textbf{\href{https://www.mindtree.com}{Mindtree Ltd.}} & \href{https://goo.gl/maps/myJfibYFpi98DpwA9}{Chennai,  TN \scriptsize\faMapMarker}  \\
 \tabitem Sr. Engineer - DevOps & Oct 2017 - Apr 2019 \scriptsize\faCalendar \\
 \tabitem Engineer - DevOps & Feb 2016 - Oct 2017 \scriptsize\faCalendar \\
 \hline
 \end{tabular*}
 \vspace{1mm}
-\begin{itemize}[noitemsep, nolistsep,leftmargin=5mm,rightmargin=2mm]
+\begin{itemize}[noitemsep, nolistsep,leftmargin=5mm,rightmargin=2mm,label=\textcolor{NavyBlue}{\textbullet}]
 \item Having practical experience working with DevOps tools, SCM, Automation, CI/CD, Configuration Mgmt., Build \& Release Mgmt. and Cloud Operations.
 \item Extensively working on Terraform and Ansible to create Infrastructure as Code (IAC) for the new environments, migrated all the legacy ones and maintaining the state of all the environments.
 \item Followed best practices of Software Configuration Management (SCM) processes, which includes compiling, packaging, deploying and configurations.
 \item Created a tool named D-Engine which is used for automated infra creation and orchestration.
 \item Following, learning and implementing Danaher Business System (DBS).
 \item Working on a dot-net multi-stack microservice architecture using Azure Service Fabrics to package, deploy, and manage scalable and reliable microservices and containers.
-\item Working with DevFinOps approach for cloud and saving  approximately US\$ 1.5million/year with the analysis using Kusto Query Language – KQL, Log Analytics and Application Insights.
+\item Working with DevFinOps approach for cloud and saving  approximately US\$ 1.5 million/year with the analysis using Kusto Query Language – KQL, Log Analytics and Application Insights.
 \item Single handedly managing and performing the complete Production releases with respective Development, QA and support teams, along with Rollback planning.
+\item Currently working on all the Azure resources like Service Fabrics, App Services, Application Insights, Databases, IoT Hub, Azure Kubernetes Services, Service Bus, API Management, Key Vaults, Load Balancers, Storage Accounts, Virtual Machines Scale Sets, etc.
 \item Automated manual processes at different levels of SDLC using different technologies and scripts.
 \item Created a complete monitoring solution for an IOT product using Grafana and Nagios.
 \item Extensively experienced in scripting languages like Shell on Linux and PowerShell on Windows.
 \item Working with Containerization tools like Docker and Kubernetes to create dynamic Jenkins slaves.
 \item Implementing DevSecOps as a part of DevOps pipeline using tools like SonarQube, Prisma, etc.
 \item Implemented multiple CI (Continuous Integration), CD (Continuous Deployment) and CD (Continuous Delivery) pipelines as a part of DevOps role in multiple projects.
-\item Have good understanding of Incident, Problem and Change management and ability to work independently or as part of a team.
+\item Have good understanding of Incident, Problem and Change management, Build \& Release Management and ability to work independently or as part of a team.
 \item Training and handling colleagues and juniors in the team and preparing High-level POCs.
 \end{itemize}
+\pagebreak
 
-\section*{Professional Skills}
+\section*{\color{NavyBlue}Professional Skills}
 \vspace{-1.5mm}
 \noindent\begin{tabular}{|>{\columncolor[gray]{0.9}}p{1.8in}|p{4.7in}|}
 \hline
@@ -91,37 +98,38 @@ Cloud Operations 	& Microsoft Azure, Amazon Web Services - AWS \\
 \hline
 Command Line Interface & AWS CLI, Azure CLI, Linux, Windows \\
 \hline
-Containerization  & Docker, Kubernetes, Azure Kubernetes Service – AKS, Azure Service Fabrics \\
+Containerization  & Docker, Kubernetes, Azure Kubernetes Service – AKS, Azure Service Fabric \\
 \hline
-DevSecOps/Security & Trufflehog, OWASP Top 10, Nikto, DefectDojo, Prisma Cloud \\
+DevSecOps/Security & SonarQube, Trufflehog, OWASP, Prisma Cloud \\
 \hline
 Version Control & Git, GitHub, GitLab, BitBucket \\
 \hline
 Build \& Repo Management  & Packer, Maven and JFrog Artifactory \\
 \hline
-Languages	 & Bash Shell, PowerShell, C++, KQL, Python \\
+Languages	 & Bash Shell, PowerShell, C++, KQL, Basics of Python \\
 \hline
 Web Tools/Technologies  & Apache Tomcat, Nginx, HA Proxy \\
 \hline
 Deployment & Jenkins – Pipeline as Code, Bamboo, Azure DevOps, Rundeck \\
 \hline
-Ticketing \& Management  & JIRA, Remedyforce \\
+Ticketing \& Management  & JIRA, Remedyforce,Trello \\
 \hline
-Monitoring \& Code Quality	 & Grafana, Nagios, SonarQube, Application Insights \\
+Monitoring \& Code Quality	 & Grafana, Nagios, SonarQube, Application Insights, Log Analytics \\
 \hline
 Team Collaboration & MS Teams, Slack, Confluence \\
 \hline
 Human Skills & Communication, Decision Making, Leadership, Teamwork, Adaptability \\
 \hline
-Danaher Business System &	DBS Fundamentals, Problem Solving Practice (PSP)\\
+Danaher Business System &	DBS Fundamentals, Problem Solving Practice,  Situational Self Leadership\\
 \hline
 %\multicolumn{2}{|c|}{\text{Title}} \\
 %\hline
 \end{tabular}
 
-\section*{Roles - [Core Technical]}
+\section*{\color{NavyBlue}Roles - [Core Technical]}
 \vspace{-1.5mm}
-\subsubsection*{\faBuilding\hspace{0.1pt} At HACH - A Danaher Company}
+\subsubsection*{\textcolor{NavyBlue}{\faBuilding}\hspace{0.1pt} At HACH - A Danaher Company}
+\vspace{-1.5mm}
 Working for the product-based firm named “HACH” which is a Danaher company.  Extensively working on a product called “Claros - The Water Intelligence System”. It is a digital IoT solution to eliminate uncertainty and improve efficiency. \\
 
 \noindent\begin{tabular}{|p{1.5in}|p{5in}|}
@@ -134,19 +142,25 @@ Team Size & 5 [70\%] \& Individual Contributor [30\%]\\
 \hline
 \end{tabular}
 \newline
-\vspace*{1mm}
+%\vspace*{1mm}
 \newline
-\begin{tabular}{|p{6.67in}|}
+\begin{tabular}{|p{6.671in}|}
 \hline
 \rowcolor{black!5} Responsibilities \& Tasks\\
 \hline
-\begin{itemize}[noitemsep, nolistsep]
-\item First item
-\item Second item
-\item Third item
-\item First item
-\item Second item
-\item Third item
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\textbullet}]
+\item Leveraging 70\% of my time working for Hach with the internal DevOps Team and 30\% as an Individual Contributor consulting for other OpCos of Danaher like Aquatic Informatics, Trojan Technologies, OTT Hydromet with the Global DevOps Team.
+\item Working closely with Dev, QA and Firmware team to understand a code/configuration release scope, maintain the infrastructure state and post-validation after the release.
+\item As Scrum Master drives all the Sprint ceremony.
+\item Performing Azure Cloud Cost audit every 6 months and saving more than US\$ 1.5 million/year till now.
+\item Currently working on all the Azure resources like Service Fabrics, App Services, Application Insights, Databases, IoT Hub, Azure Kubernetes Services, Service Bus, API Management, Key Vaults, Load Balancers, Storage Accounts, Virtual Machines Scale Sets, etc.
+\item Also working for other companies at Danaher to support them in automating and creating an end-to-end DevOps solution.
+\item Creating multiple Standard work documents and handing over the task to different teams after implementing DevOps methodology.
+\item Created Grafana dashboards and assigned access to different users to create and view the dashboards.
+\item Setup and configured SonarQube to scan code and added it as part of CI process as DevSecOps approach.
+\item Gemba visits to get the actual results and maintain Danaher Continuous Improvement Wheel.
+\item Also coaching and guiding fellow team-mates to follow the DBS process and DevOps methodology.
+
 \end{itemize} \\
 \hline
 \end{tabular}
@@ -156,237 +170,176 @@ Team Size & 5 [70\%] \& Individual Contributor [30\%]\\
 \hline
 \rowcolor{black!20} Role [3] & Sr. Software Engineer - DevOps\\
 \hline
-Duration & April 2019 - April 2020\\
+Duration & April 2019 - March 2020\\
 \hline
 Team Size & 5 [100\%]\\
 \hline
 \end{tabular}
 \newline
-\vspace*{1mm}
+%\vspace*{1mm}
 \newline
-\begin{tabular}{|p{6.67in}|}
+\begin{tabular}{|p{6.671in}|}
 \hline
 \rowcolor{black!5} Responsibilities \& Tasks\\
 \hline
-\begin{itemize}[noitemsep, nolistsep]
-\item Working closely with Dev, QA and Firmware team to understand a code/configuration release scope, maintain the infrastructure state and post-validation after the release.
-\item As Scrum Master drives all the Sprint ceremony.
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\textbullet}]
 \item Extensively working on Terraform and Ansible to create Infrastructure as Code (IAC) for the new environments and configure them.
 \item Working on a dot-net multi-stack application using Azure Service Fabrics to package, deploy, and manage scalable Microservices and Containers.
-\item Performing Azure Cloud Cost audit every 6 months and saving more than US\$ 1.5million/year till now.
 \item Created a complete monitoring solution for Claros using Grafana and Nagios.
 \item Also responsible for Atlassian administration. 
 \item Responsible for creating Jenkins pipeline as code and Bamboo CI-CD build and deployment pipelines for different environments.
 \item Performing all the production deployments and hotfixes single handedly.
-\item Currently working on all the Azure resources like Service Fabrics, App Services, Application Insights, Databases, IoT Hub, Azure Kubernetes Services, Service Bus, API Management, Key Vaults, Load Balancers, Storage Accounts, Virtual Machines Scale Sets, etc.
-\item Creating multiple Standard work documents and handing over the task to different teams after implementing DevOps methodology.
-\item Also working for other companies at Danaher to support them in automating and creating an end-to-end DevOps solution.
 \end{itemize} \\
 \hline
 \end{tabular}
 
-\subsubsection*{\faBuilding\hspace{0.1pt} At Mindtree Ltd.}
-Worked for the company named “Mindtree Ltd.” for a leading US based client which provides personalized digital media solutions for consumer-packaged goods (CPG).  Was the part of an open-wide group called “Center of Excellence - DevOps” in my first role which focuses on the R\&D in DevOps methodology.\\
+\subsubsection*{\textcolor{NavyBlue}{\faBuilding}\hspace{0.1pt} At Mindtree Ltd.}
+\vspace{-1.5mm}
+Worked for the company named “Mindtree Ltd.” for a leading US based client which provides personalized digital media solutions for consumer-packaged goods (CPG).  I was also the part of an open-wide group called “Center of Excellence - DevOps” in my first role which focuses on the R\&D in DevOps methodology.\\
 
 \noindent\begin{tabular}{|p{1.5in}|p{5in}|}
 \hline
-\rowcolor{black!20} Role [2] \& Role [1] & Sr.  Engineer - DevOps \& Engineer - DevOps\\
+\rowcolor{black!20} Role [2] & Sr.  Engineer - DevOps \\
 \hline
-Duration & September 2017 - April 2019\\
+Duration & October 2017 - April 2019\\
 \hline
 Team Size & 2 [100\%]\\
 \hline
 \end{tabular}
 \newline
-\vspace*{1mm}
+%\vspace*{1mm}
 \newline
-\begin{tabular}{|p{6.67in}|}
+\begin{tabular}{|p{6.671in}|}
 \hline
 \rowcolor{black!5} Responsibilities \& Tasks\\
 \hline
-\begin{itemize}[noitemsep, nolistsep]
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\textbullet}]
 \item DevOps framework implemented in the project - This involved continuous integration, continuous deployment, and automation. 
 \item Responsible for performing deployment, automating Release Workflow for all the applications and troubleshooting the issues. 
 \item Worked with TFS API and created an automated release for an application using Jenkins. 
 \item Responsible for creating and updating the projects in Bamboo and Jenkins to make a CI-CD solution for different environments like Dev, QA, UAT and Prod. 
 \item Worked and supported the project 24x7 and also was on-call when needed. 
-\item Created CI-CD pipelines, documented with SOPs.
+\item Trained colleagues on CI-CD and different DevOps tools.
+\end{itemize} \\
+\hline
+\end{tabular}
+\vspace*{2mm}
+
+\noindent\begin{tabular}{|p{1.5in}|p{5in}|}
+\hline
+\rowcolor{black!20} Role [1] & Engineer - DevOps\\
+\hline
+Duration & February 2016 - October 2017\\
+\hline
+Team Size & 6 [100\%]\\
+\hline
+\end{tabular}
+\newline
+%\vspace*{1mm}
+\newline
+\begin{tabular}{|p{6.671in}|}
+\hline
+\rowcolor{black!5} Responsibilities \& Tasks\\
+\hline
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\textbullet}]
 \item Worked on automating cloud infrastructure provisioning using Terraform, Packer and Ansible.
-\item Part of the team which created a company propriety tool named D-Engine which is used for infrastructure orchestration.
+\item Created CI-CD pipelines, documented with SOPs.
+\item Part of the team which created a company propriety tool named D-Engine which is used for infrastructure orchestration. The Infrastructure can be created within a matter of minutes, moreover the application and tools are installed, configured and ready to host any executable files. 
 \item Worked for three projects setting up their DevOps pipeline and created several POCs that helped new joiners to learn the functionalities easily.
+\item Installed Jenkins and created the master/slave architecture for a project to run multiple build operations in parallel. 
+\item Worked on almost all tools from different DevOps verticals and made sure that I should be aware of different SDLC stacks being used in the industry.
 \end{itemize} \\
 \hline
 \end{tabular}
 \pagebreak
 
-\section*{Courses \& Certifications}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faCertificate] Microsoft Azure Administrator
-\item[\scriptsize\faCertificate] Jenkins Professional
-\item[\scriptsize\faCertificate] Cloud Computing with AWS
-\item[\scriptsize\faCertificate] Docker for DevOps
-\item[\scriptsize\faCertificate] DBS Problem Solving Practice
+\section*{\color{NavyBlue}Courses \& Certifications}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faCertificate}]
+\item Microsoft Azure Administrator
+\item Jenkins Professional
+\item Cloud Computing with AWS
+\item Docker for DevOps
+\item Situational Self Leadership
+\item DBS Problem Solving Practice
 \end{itemize}
+\vspace{-2mm}
 
-\section*{Honours \& Awards}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faTrophy] ACE Award $(11/2020)$
-\item[\scriptsize\faTrophy] IT Recognition Award $(08/2020)$
-\item[\scriptsize\faTrophy] Quarterly Award 2020 $(05/2020)$
-\item[\scriptsize\faTrophy] Spot Award 2019 $(12/2019)$
-\item[\scriptsize\faTrophy] Bronze Pillar Award 2019 $(04/2019)$
-\item[\scriptsize\faTrophy] Outstanding Performer Award 2018 $(03/2019)$
-\item[\scriptsize\faTrophy] Outstanding Performer Award 2017 $(10/2018)$
-\item[\scriptsize\faTrophy] Eureka Award $(06/2018)$
-\item[\scriptsize\faTrophy] A-Team Award for Osmosis 2017 $(03/2018)$
-\item[\scriptsize\faTrophy] Mastermind Award $(10/2017)$
-\item[\scriptsize\faTrophy] Unstoppable Award $(06/2017)$
-\item[\scriptsize\faTrophy] A-Team for Osmosis 2016 $(07/2016)$
+\section*{\color{NavyBlue}Honours \& Awards}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faTrophy}]
+\item ACE Award $(11/2020)$
+\item IT Recognition Award $(08/2020)$
+\item Quarterly Award 2020 $(05/2020)$
+\item Spot Award 2019 $(12/2019)$
+\item Bronze Pillar Award 2019 $(04/2019)$
+\item Outstanding Performer Award 2018 $(03/2019)$
+\item Outstanding Performer Award 2017 $(10/2018)$
+\item Eureka Award $(06/2018)$
+\item A-Team Award for Osmosis 2017 $(03/2018)$
+\item Mastermind Award $(10/2017)$
+\item Unstoppable Award $(06/2017)$
+\item A-Team for Osmosis 2016 $(07/2016)$
 \end{itemize}
+\vspace{-2mm}
 
-\section*{Strength}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faArrowRight] Self-Learning as my key strength.
-\item[\scriptsize\faArrowRight] Team Leader, Team member as well as Individual contributor.
-\item[\scriptsize\faArrowRight] Ready to take challenges and meeting deadlines.
-\item[\scriptsize\faArrowRight] Creating an apolitical and positive work environment.
-\item[\scriptsize\faArrowRight] Creativity with work and good presenter.
-\item[\scriptsize\faArrowRight] Sociability and Punctuality.
+\section*{\color{NavyBlue}Strength}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faArrowRight}]
+\item Self-Learning as my key strength.
+\item Team Leader, Team member as well as Individual contributor.
+\item Ready to take challenges and meeting deadlines.
+\item Creating an apolitical and positive work environment.
+\item Creativity with work and good presenter.
+\item Sociability and Punctuality.
 \end{itemize}
+\vspace{-2mm}
 
-\section*{Human Skills}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faPlay] Communication and Teamwork
-\item[\scriptsize\faPlay] Decision Making and Leadership
-\item[\scriptsize\faPlay] Creativity and Adaptability
+\section*{\color{NavyBlue}Human Skills}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faPlay}]
+\item Communication and Teamwork
+\item Decision Making and Leadership
+\item Creativity and Adaptability
 \end{itemize}
+\vspace{-2mm}
 
-\section*{Languages}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faLanguage] Hindi - Native
-\item[\scriptsize\faLanguage] English - Fluent
+\section*{\color{NavyBlue}Languages}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faLanguage}]
+\item Hindi - Native
+\item English - Fluent
 \end{itemize}
+\vspace{-2mm}
 
-\section*{Hobbies}
-\vspace{-1.5mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item[\scriptsize\faStar] Running
-\item[\scriptsize\faStar] Blogging
-\item[\scriptsize\faStar] Designing
-\item[\scriptsize\faStar] Cooking
-\item[\scriptsize\faStar] Upskilling
-\item[\scriptsize\faStar] Cricket
+\section*{\color{NavyBlue}Hobbies}
+\vspace{-2mm}
+\begin{itemize}[noitemsep, nolistsep,label=\textcolor{NavyBlue}{\scriptsize\faStar}]
+\item Running
+\item Blogging
+\item Designing
+\item Cooking
+\item Upskilling
+\item Cricket
 \end{itemize}
+\vspace{-8mm}
 
 \begin{center}
-\rule{6.8in}{0.5mm}
-\scriptsize This resume is created in LaTex using \textit{Docs as Code} \& the code can be found here: \scalebox{.8}[1.0]{\scriptsize \url{https://github.com/iankesh/mylatexresume.}}
+\textcolor{NavyBlue}{\rule{6.8in}{0.5mm}}
+\textbf{\small \textcolor{NavyBlue}{Contact Me}}\\
+\vspace{1mm}
+\qrcode{
+BEGIN:VCARD
+VERSION:4.0
+N:K;Ankesh
+FN:Ankesh KedarNath
+ORG:Danaher Corporation
+TEL;TYPE=personal:+91(819)743-4654
+EMAIL:iankesh@outlook.com
+URL:http://iankesh.wixsite.com/profile
+ADR;TYPE=work;Address="Street address, Postal-code, City,Country,Province":RMZ Ecoworld;Bengaluru;Bellandur;India;560103;
+END:VCARD
+}
 \end{center}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%% PAGE 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\pagebreak
-\noindent  \begin{flushright}\begin{Large}\textbf{Ankesh K.} \end{Large}\end{flushright}
-\vspace{-2mm}
-\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
-GitHub: [\url{github.com/iankesh}] & DevOps Consultant \\
-Blogs: [\url{blogspot.com/iankesh}] & Bengaluru, Karnataka – 37 \\
-LinkedIn: [\url{linkedin.com/in/iankesh}] &  \href{mailto:iankesh@outlook.com}{iankesh@outlook.com} \\
-Website: [\url{iankesh.wixsite.com/profile}] &  +91 819 743 4654\\
-\hline
-\end{tabular*}
-
-\section*{Career Objective}
-\textit{A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC), Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps. Aiming to leverage my skills to successfully fill the DevOps role at your company.}
-
-%%%%%%%%%%%%%%%%%%%%%%%% PAGE 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{3cm}
-\noindent  \begin{flushright}\begin{Large}\textbf{Ankesh K.} \end{Large}\end{flushright}
-\vspace{-2mm}
-\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l c r}
-GitHub: [\url{github.com/iankesh}] &  \multirow{4}{*}{\includegraphics[scale=0.13]{ankesh_round_photo}} & DevOps Consultant \\
-Blogs: [\url{blogspot.com/iankesh}] & & Bengaluru, Karnataka – 37 \\
-LinkedIn: [\url{linkedin.com/in/iankesh}] & & \href{mailto:iankesh@outlook.com}{iankesh@outlook.com} \\
-Website: [\url{iankesh.wixsite.com/profile}] & & +91 819 743 4654\\
-\hline
-\end{tabular*}
-
-\pagebreak
-%%%%%%%%%%%%%%%%%%%%%%%% PAGE 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{flushleft}
-      \Large\textbf{Ankesh K.}\\
-      \large\textit{DevOps Consultant}
-\end{flushleft}
-\vspace{-3mm}
-\faEnvelope\hspace{0.1pt} \href{mailto:iankesh@outlook.com}{iankesh@outlook.com}  {}  {}  {}  \faPhone\hspace{0.1pt} +91 819 743 4654  {}  {}  {}  \faHome\hspace{0.1pt} Bengaluru, Karnataka – 37 \\
-\footnotesize \faGithub \url{github.com/iankesh} {}  {}  {} \faLinkedin \url{linkedin.com/in/iankesh} {}  {}  {} \faEdit \url{blogspot.com/iankesh} \\
-\vspace{-2mm} \\
-A DevOps evangelist with almost $5$ years of experience and working knowledge of DevOps, DevSecOps, Automation, CI/CD - Pipeline as Code,  Infrastructure as Code (IAC), Cloud Operations and Build \& Release Management. Hands-on experience in creating and automating deployments, leveraging configuration management and DevOps. \\
-\rule{6.8in}{0.3mm}
-
-\vspace{-5mm}
-\section*{Education}
-\vspace{-2mm}
-\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
-\textbf{AMC Engineering College} & Bengaluru, KA  \\
-Bachelor of Engineering (B.E.) - VTU & 2011 - 2015
-\end{tabular*}
-
-\section*{Work Experience}
-\vspace{-2mm}
-\noindent\begin{tabular*}{\textwidth}{|@{\extracolsep{\fill}}l r|}
-\hline
-\textbf{HACH (A Danaher Company)} & Bengaluru, KA  \\
-Software Consultant - DevOps \& Sr.  Software Engineer - DevOps & Apr 2019 - Present \\
-\hline
-\textbf{Mindtree Ltd.} & Chennai,  TN \& Bengaluru, KA  \\
-Sr. Engineer - DevOps \& Engineer - DevOps & Feb 2016 - Apr 2019 \\
-\hline
-\end{tabular*}
-\vspace{1mm}
-\begin{itemize}[noitemsep, nolistsep]
-\item Having practical experience working with DevOps tools, SCM, Automation, CI/CD, Configuration Mgmt., Build \& Release Mgmt. and Cloud Operations.
-\item Extensively working on Terraform and Ansible to create Infrastructure as Code (IAC) for the new environments, migrated all the legacy ones and maintaining the state of all the environments.
-\item Followed best practices of Software Configuration Management (SCM) processes, which includes compiling, packaging, deploying and configurations.
-\item Created a tool named D-Engine which is used for automated infra creation and orchestration.
-\item Following, learning and implementing Danaher Business System (DBS).
-\item Working on a dot-net multi-stack microservice architecture using Azure Service Fabrics to package, deploy, and manage scalable and reliable microservices and containers.
-\item Working with DevFinOps approach for cloud and saving  approximately US\$ 1.5million/year with the analysis using Kusto Query Language – KQL, Log Analytics and Application Insights.
-\item Single handedly managing and performing the complete Production releases with respective Development, QA and support teams, along with Rollback planning.
-\item Automated manual processes at different levels of SDLC using different technologies and scripts.
-\item Created a complete monitoring solution for an IOT product using Grafana and Nagios.
-\item Extensively experienced in scripting languages like Shell on Linux and PowerShell on Windows.
-\item Working with Containerization tools like Docker and Kubernetes to create dynamic Jenkins slaves.
-\item Implementing DevSecOps as a part of DevOps pipeline using tools like SonarQube, Prisma, etc.
-\item Implemented multiple CI (Continuous Integration), CD (Continuous Deployment) and CD (Continuous Delivery) pipelines as a part of DevOps role in multiple projects.
-\item Have good understanding of Incident, Problem and Change management and ability to work independently or as part of a team.
-\item Training and handling colleagues and juniors in the team and preparing High-level POCs.
-\end{itemize}
-
 \end{document}
-
