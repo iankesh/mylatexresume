@@ -1,9 +1,16 @@
 \documentclass[a4paper]{deedy-resume-openfont}
 \usepackage{fancyhdr}
 \usepackage{cascadia-code}
+\usepackage{ragged2e} 
  
 \pagestyle{fancy}
 \fancyhf{}
+
+% Enable below to justify text and use "\justify"
+% \tolerance=1
+% \emergencystretch=\maxdimen
+% \hyphenpenalty=10000
+% \hbadness=10000
  
 \begin{document}
 
@@ -149,6 +156,7 @@ Graphics Designer
 \section{Experience}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize} %\fontsize{11.5}{0}\selectfont
+%\justifying % to justify text
 \item Architecting Microsoft Azure / Oracle Cloud / AWS cloud infrastructure by writing IaC Terraform configuration and developing Terraform modules.
 \item Developing programs for multiple data analysis and deploying front-ends using Python, Gunicorn, Flask and Nginx.
 \item Setting up GitLab runners on the servers hosted on Data-Center to run the data pipeline which pulls data from on-premise data-sources to reduce the data transfer time to approx. 50\% .
@@ -200,13 +208,14 @@ Running \textbullet{} Fitness \textbullet{} Cooking \textbullet{} Reading  \text
 \descript{| Senior Associate - DevOps | Sep 2021 - Present | Bengaluru, IN}
 \location {{\bf ROLE:} Lead ( Team of 4 ), Team Contributor ( Team of 15 )}
 \begin{tightemize}
+%\justifying % to justify text
 \item Setting up Data pipelines for multiple data analysis stages like ingest, model, program and outbound.
 \item Developed an automated deployment for Digital Risk Operations (DRO) framework with multi environment data modelling and analytics platform.
 \item Created backend infrastructure resources like Servers, NSGs, SGs, Load Balancers (Backend Sets, Backends, Listeners, Hostnames, etc.) on Oracle Cloud Interface (OCI) using terraform and running it from Scalr.
 \item Migrated a Data Pipeline from on-premise to cloud by running Ingest on DC hosts, moving the ingest data on AWS S3 bucket, pipelining model and program stages on AWS using Lambda and Glue services and automated using Event Bridge which outbounds the data to Dash, S3 and snowflake instances.
 \item Migrating Product Risk Analytics On-premise tools to AWS cloud by writing IaC Terraform configuration and developing Terraform modules.
-\item Setting up GitLab pipelines for front-end deployments and writing Terraform code for creating infrastructure for data projects.
-\item Created an auotmated certificate rotation program which updates the certificates on the hosts when a pipeline is triggered.
+\item Setting up GitLab pipelines for front-end and back-end deployments and writing Terraform code for creating infrastructure for data projects.
+\item Created an automated certificate rotation program which creates and updates the certificates on the hosts when the pipeline is triggered on-demand.
 \item Designing Container based solution for running GitLab pipelines.
 \item Setup the complete Atlassian suite for the team with all the dashboards, sprint boards, epics in Jira, created confluence space for the team and integrated both with the CI platform.
 \item Incorporating DevOps and Scrum best practices across the teams.
@@ -217,6 +226,7 @@ Running \textbullet{} Fitness \textbullet{} Cooking \textbullet{} Reading  \text
 \descript{| SDE II - DevOps | Apr 2019 – Sep 2021 | Bengaluru, IN}
 \location {{\bf ROLE:} Team Contributor ( Team of 8 )}
 \begin{tightemize}
+%\justifying % to justify text
 \item Architected and created environments for a product called \href{https://www.hach.com/claros/overview#claros-video}{\bf Claros} across multiple regions using IaC - Terraform and written custom Ansible roles, which helped reduce the per deployment time by 2 hrs.
 \item Developed an E2E Monitoring Solution using Grafana and Nagios which reduced prod incidents from 50+/quarter to <10/quarter.
 \item Designed a cost-effective build system and improved the efficiency by 80\% using Azure Kubernetes build agents and on-demand Docker containers.
@@ -230,6 +240,7 @@ Running \textbullet{} Fitness \textbullet{} Cooking \textbullet{} Reading  \text
 \descript{| Software Engineer - DevOps | Feb 2016 – Apr 2019 | Chennai, IN \& Bengaluru, IN}
 \location {{\bf ROLE:} Team Contributor ( Team of 21 ) \& Individual Contributor}
 \begin{tightemize}
+%\justifying % to justify text
 \item Designed the E2E Build and Release process for a tenant based multi-service architecture and achieved the release success rate of 100\%.
 \item Developed a company proprietary tool named \href{https://www.youtube.com/watch?v=YWLU2OU13tA}{\bf D-Engine}, and it is used for infrastructure orchestration across the organization.
 \item Created a visual dashboard using Grafana and Prometheus to display the response from 32k+ stores across the country.
